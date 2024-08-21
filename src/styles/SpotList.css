@@ -1,0 +1,62 @@
+.SpotList {
+    list-style-type: none;
+    padding-left: 0;
+
+    /*
+    border-color: black;
+    border-style: solid;
+    */
+}
+
+.SpotListElement {
+    column-count: 3;
+    
+    background-color: #EDE8F5;
+
+    border-color: #8697C4;
+    border-style: solid;
+    border-radius: 5px;
+
+    margin-bottom: 5px;
+
+    display:flex;
+}
+
+.SpotListElementLeft {
+    width: 25%;
+    color: #0b0f1d;
+    text-align: center;
+    
+}
+
+.SpotListElementRight {
+    width: 50%;
+    color: #0b0f1d;
+    text-align: left;
+
+    border-left: 3px solid #8697C4;
+    border-right: 3px solid #8697C4;
+}
+
+.SpotListElementRight p {
+    margin: 2px;
+    padding: 0;
+}
+
+.SpotListElementButton {
+    width: 25%;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SpotListElementButton button{
+    color: #0b0f1d;
+    height: max-content;
+    background-color: #ADBBDA;
+    border: 3px solid #8697C4;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+.SpotForm {
+    border: 3px solid #8697C4;
+    background-color: #EDE8F5;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    line-height: 2px;
+}
+
+.SpotForm p{
+    color: #0b0f1d;
+}
+
+.SpotForm input{
+    width: 100%;
+    box-sizing: border-box; /*this fixed width 100% going over parent padding*/
+
+    text-align: center;
+    border: 3px solid #8697C4;
+}
+
+.SpotForm button{
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+
+    color: #0b0f1d;
+    background-color: #ADBBDA;
+    border: 3px solid #8697C4;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
