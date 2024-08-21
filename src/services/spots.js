@@ -1,6 +1,7 @@
 import axios from 'axios'
 //const baseUrl = 'http://localhost:3001/api/spots'
-const baseUrl = 'https://marjaback.onrender.com/api/spots'
+//const baseUrl = 'https://marjaback.onrender.com/api/spots'
+const baseUrl = '/api/spots'
 
 const getAll = () => {
     return axios.get(baseUrl)
